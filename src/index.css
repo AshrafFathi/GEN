@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right top, 
+  #0baef6, #20a2f8, #3e95f7, #5b87f2, #7676e9);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-shadow: 2px 2px 8px rgb(22, 71, 99);
+  text-transform: uppercase;
+  font-size: 2.5em;
+  margin: 1em 1em 1.5em 1em;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+h3 {
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+}
+h4 {
+  color:#222;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 15px 0 15px 0 ;
+  font-weight: 600;
+}
+hr {
+  border: .5px solid rgba(160, 160, 160, 0.3);
+  
+}
+.menu-flags {
+  border: 1px solid rgba(63, 63, 63, 0.5);
+  border-radius: 3px;
+  padding: .3em;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+  
+}
+.form-control{
+  margin-bottom: 20px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.options-text {
+  color: #000 !important;
+  font-size: 25px !important;
+}
+.container {
+  
+  
+
+}
+.wrapper {
+  
+  text-align: center;
+  
+}
+p {
+  padding: .5em 2em .5em 2em;
+  color: white;
+ 
+}
+.note {
+  margin-top: 2em;
+}
+.cTable {
+  background-color: white;
+  text-align: center;
+  padding: 2em;
+  border-radius: 7px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  width: 60%;
+  margin-bottom: 1em;
+  margin: 0 auto;
+
+}
+.info {
+  text-align: left;
+  padding: 0 1em 0 1em;
+}
+.span-right {
+  text-align: right;
+  float: right;
+}
+
+#country {
+  width: 50%;
+}
+
+@media  (max-width: 320px){
+  h1 {
+    margin: 2em !important;
+    font-size: 1.3em !important;
+  }
+  .cTable{
+    padding: .5em;
+    width:70%;
+  }
+}
+@media (max-width: 375px){
+  h1 {
+    margin: 2em !important;
+    font-size: 1.8em !important;
+  }
+  .cTable{
+    padding: .5em;
+    width:70%;
+  }
+}
+@media (max-width: 414px){
+  h1 {
+    margin: 2em;
+    font-size: 1.6em;
+  }
+  .cTable{
+    padding: .5em;
+    width:70%;
+  }
+}
